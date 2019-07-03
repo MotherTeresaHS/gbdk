@@ -92,7 +92,7 @@ unzip gbdk-master.zip && mv gbdk-master gdbk (and rename the folder to gbdk)
 
 Change director into new folder: 
 ```
-cd gbdk
+cd gdbk
 ```
 
 Run MakeFile: 
