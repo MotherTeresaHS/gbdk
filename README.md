@@ -67,3 +67,18 @@ make
 
 Note: compiling the examples requires you to install the binaries you
 just built in the previous steps.
+
+
+Start an AWS Cloud9 instance.
+Under "Platform" ensure you select "Ubuntu Server 18.04 LTS"
+Load dependancies: sudo apt-get -y install make gcc g++ bison flex
+Download the repo: wget --no-check-certificate --content-disposition https://github.com/MotherTeresaHS/gbdk/archive/master.zip
+Unzip the file: unzip gbdk-master.zip && mv gbdk-master gdbk (and rename the folder to gbdk)
+Change director into new folder: cd gbdk
+Run MakeFile: make
+Then install binaries: sudo make install
+Remove the zip file
+Goto /game directory
+Run: make
+Copy game.gb over to web/rom
+Open up /web/index.html
