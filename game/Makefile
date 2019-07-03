@@ -1,6 +1,7 @@
-CC	= /opt/gbdk/bin/lcc -Wa-l -Wl-m -Wl-j
+#CC	= /opt/gbdk/bin/lcc -Wa-l -Wl-m -Wl-j
+CC	= /opt/gbdk/bin/lcc 
 
-BINS	= game.gb
+BINS	= game.gb 
 
 all:	$(BINS)
 
@@ -21,5 +22,5 @@ make.bat: Makefile
 	$(CC) -o $@ $<
 
 clean:
-	rm -f *.o *.gb *~ *.rel *.cdb *.ihx *.lnk *.sym *.asm
-	#rm -f *.o *.lst *.map *.gb *~ *.rel *.cdb *.ihx *.lnk *.sym *.asm
+	rm -f *.o *.lst *.map *.gb *~ *.rel *.cdb *.ihx *.lnk *.sym *.asm
+	#cp game.gb ../web/rom/game.gb
