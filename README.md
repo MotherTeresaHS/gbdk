@@ -68,13 +68,16 @@ make
 Note: compiling the examples requires you to install the binaries you
 just built in the previous steps.
 
+Startup
+========
 
 Start an AWS Cloud9 instance.
 
 Under "Platform" ensure you select "Ubuntu Server 18.04 LTS"
 
 Load dependancies: 
-```sudo apt-get -y install make gcc g++ bison flex
+```
+sudo apt-get -y install make gcc g++ bison flex
 ```
 
 Download the repo: 
