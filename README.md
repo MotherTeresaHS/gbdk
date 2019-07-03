@@ -35,41 +35,8 @@ Original sites:
   * http://gbdk.sourceforge.net
   * http://sourceforge.net/projects/gbdk
 
-Building
-========
-
-For the build I recommend an Ubuntu 16.04 LTS (you don't even need to
-install it, the Live system works just fine).
-
-The environment will need a few packages, all of them can be installed
-using apt-get:
-```
-sudo apt-get -y install make gcc g++ bison flex
-```
-
-After downloading the source you can use the Makefile to compile the
-binaries:
-```
-cd /path/where/you/extracted
-make
-```
-
-Installing the compiled binaries can be done via make as well:
-```
-sudo make install
-```
-
-Compiling the examples:
-```
-cd ./gbdk-lib/examples/gb
-make
-```
-
-Note: compiling the examples requires you to install the binaries you
-just built in the previous steps.
-
-Startup
-========
+Build
+=====
 
 Start an AWS Cloud9 instance.
 
@@ -85,9 +52,9 @@ Download the repo:
 wget --no-check-certificate --content-disposition https://github.com/MotherTeresaHS/gbdk/archive/master.zip
 ```
 
-Unzip the file: 
+Unzip the file (and rename the folder to gbdk): 
 ```
-unzip gbdk-master.zip && mv gbdk-master gdbk (and rename the folder to gbdk)
+unzip gbdk-master.zip && mv gbdk-master gdbk
 ```
 
 Change director into new folder: 
