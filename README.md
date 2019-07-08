@@ -24,16 +24,7 @@ From http://gbdk.sourceforge.net
 Quick summary
 =============
 
-The base version (2.96a) was downloaded from the official site. Although
-this is the latest version, it was released quite a while ago (back in
-April 2002).
-
-The code can be compiled in an up-to-date 64-bit Linux environment (at
-least it is up-to-date here in 2016).
-
-Original sites:
-  * http://gbdk.sourceforge.net
-  * http://sourceforge.net/projects/gbdk
+The version is specifically designed to run on AWS Cloud9 instance as your developement platform.
 
 Build
 =====
@@ -78,11 +69,14 @@ Run:
 ```
 npm install -g ggbgfx-cli
 ```
-To build a new game, go to the ./game folder.
+Run new builds of a GameBoy *.gb ROM
+====================================
+
+To build a new game, go to the ./game folder
 Run the following command:
 ```
 /opt/gbdk/bin/lcc -o game.gb game.c
 ```
-then copy game.gb over to web/rom to see it run in simulator
+then copy game.gb over to ./web/rom directory to see it run in simulator
 
-Open up /web/index.html
+Open up ./web/index.html
