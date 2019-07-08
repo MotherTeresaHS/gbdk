@@ -72,15 +72,13 @@ Then install binaries:
 sudo make install
 ```
 
-Remove the zip file
-
-Goto /game directory
+Install this tool, to make sprite tiles from PNG files
 
 Run: 
 ```
-make
+npm install -g ggbgfx-cli
 ```
 
-Copy game.gb over to web/rom
+Copy game.gb over to web/rom to see it run in simulator
 
 Open up /web/index.html
