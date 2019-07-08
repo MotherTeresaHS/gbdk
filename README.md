@@ -85,3 +85,9 @@ Here are the keyboard shortcuts for the buttons on the GameBoy:
 * Start - Enter
 * Select - Shift
 
+If you would like virtual GameBoy buttons:
+* move the cursor over to the arrow in the corner where a tool tip will say "Pop Out into a new window"
+* select this and a full screen version of the website will appear
+* in Chrome go to "View, Developer, Developer Tools"
+* Select the "Toggle Device" tool button (looks like a mobile phone infront of a desktop monitor)
+* Then reload the page and virtual buttons will appear at the bottom
