@@ -54,7 +54,7 @@ wget --no-check-certificate --content-disposition https://github.com/MotherTeres
 
 Unzip the file (and rename the folder to gbdk): 
 ```
-unzip gbdk-master.zip && mv gbdk-master gdbk
+unzip gbdk-master.zip && mv gbdk-master gbdk && rm gbdk-master.zip
 ```
 
 Change director into new folder: 
