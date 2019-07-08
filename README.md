@@ -63,6 +63,8 @@ Run new builds of a GameBoy *.gb ROM
 ====================================
 
 To build a new game, go to the ./game folder
+In here is a game.c file, that is the "Hello, World!" program for the GameBoy.
+
 Run the following command:
 ```
 /opt/gbdk/bin/lcc -o game.gb game.c
