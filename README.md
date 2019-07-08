@@ -53,12 +53,6 @@ Then install binaries:
 sudo make install
 ```
 
-Install this tool, to make sprite tiles from PNG files
-
-Run: 
-```
-npm install -g ggbgfx-cli
-```
 Run new builds of a GameBoy *.gb ROM
 ====================================
 
@@ -96,3 +90,14 @@ If you would like virtual GameBoy buttons:
 * in Chrome go to "View, Developer, Developer Tools"
 * Select the "Toggle Device" tool button (looks like a mobile phone infront of a desktop monitor)
 * Then reload the page and virtual buttons will appear at the bottom
+
+Making Sprite Data
+==================
+
+Install this tool, to make sprite tiles from PNG files
+[https://www.npmjs.com/package/ggbgfx-cli](https://www.npmjs.com/package/ggbgfx-cli)
+
+Run: 
+```
+npm install -g ggbgfx-cli
+```
