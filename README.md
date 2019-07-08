@@ -95,6 +95,7 @@ Making Sprite Data
 ==================
 
 Install this tool, to make sprite tiles from PNG files
+
 [https://www.npmjs.com/package/ggbgfx-cli](https://www.npmjs.com/package/ggbgfx-cli)
 
 Run: 
