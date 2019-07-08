@@ -72,3 +72,16 @@ Run the following command:
 then copy game.gb over to ./web/rom directory to see it run in simulator
 
 Open up ./web/index.html
+The best way to see your game in the online simulator is to open up the index.html file in the Cloud9 IDE.
+Then go to menu "Preview" and "Preview File index.html"
+A small window will appear on the right with the simulator running.
+Here are the keyboard shortcuts for the buttons on the GameBoy:
+* Up - Up Arrow / W
+* Down - Down Arrow / S
+* Left - Left Arrow / A
+* Right - Right Arrow / D
+* A - Alt / Z / J
+* B - Ctrl / K / X
+* Start - Enter
+* Select - Shift
+
