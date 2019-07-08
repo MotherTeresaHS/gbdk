@@ -71,6 +71,11 @@ Run the following command:
 ```
 then copy game.gb over to ./web/rom directory to see it run in simulator
 
+OR you could run this and it will build your ROM and place it right in the ROMs folder
+```
+/opt/gbdk/bin/lcc -o ../web/rom/game.gb game.c
+```
+
 Open up ./web/index.html
 The best way to see your game in the online simulator is to open up the index.html file in the Cloud9 IDE.
 Then go to menu "Preview" and "Preview File index.html"
