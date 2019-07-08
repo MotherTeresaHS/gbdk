@@ -78,7 +78,11 @@ Run:
 ```
 npm install -g ggbgfx-cli
 ```
-
-Copy game.gb over to web/rom to see it run in simulator
+To build a new game, go to the ./game folder.
+Run the following command:
+```
+/opt/gbdk/bin/lcc -o game.gb game.c
+```
+then copy game.gb over to web/rom to see it run in simulator
 
 Open up /web/index.html
